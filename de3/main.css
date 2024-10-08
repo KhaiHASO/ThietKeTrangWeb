@@ -1,0 +1,174 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+table,tr,th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 30px;
+    font-weight: bold;
+}
+
+.app {
+    width: 1000px;
+    margin: auto;
+    padding: 0px
+}
+
+.nav {
+    background-color: #b20054;
+
+}
+
+.nav-list {
+    display: flex;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list-item {
+    list-style-type: none;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    border-right: 1px solid white;
+    background-color: #b20054;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list-item:hover,
+.nav-list-item:active {
+    background-color: #1949b5; 
+}
+
+
+.nav-list-item:last-child {
+    border-right: none;
+}
+
+.banner {
+    width: 1000px;
+    height: 280px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+.news-title{
+    color: white;
+    background-color: #b20054;
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.news {
+    flex: 1;
+}
+.news-category{
+    width: 100%;
+}
+
+.product-list {
+    margin-left: 20px;
+    flex: 3
+}
+.product{
+    display: flex;
+}
+.product-img{
+    width: 150px;
+    height: 100px;
+}
+.product-info{
+    
+    margin-left: 10px;
+}
+
+.footer{
+    background-color: #b20054;
+    height: 100px;
+    color: white;
+}
+.footer-content{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-gopy {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gopy-title {
+    text-align: center;
+    color: #b20054;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.gopy-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.gopy-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b20054;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gopy-button:hover {
+    background-color: #940046;
+}
